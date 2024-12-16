@@ -6,5 +6,5 @@ const store = configureStore({
         student : studentReducer
     }
 })
-
+// This is Nitesh Kumar Singh. We are learning git
 export default store;
