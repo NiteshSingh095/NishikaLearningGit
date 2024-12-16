@@ -16,6 +16,14 @@ const userSchema = new Schema ({
     qualification : {
         type :"String",
         required : true
+    } , 
+    age : {
+        type:Number , 
+        required : false
+    },
+    identification : {
+        type : "String",
+        required : false
     }
 });
 
