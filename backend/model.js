@@ -24,6 +24,14 @@ const userSchema = new Schema ({
     identification : {
         type : "String",
         required : false
+    },
+    salary : {
+        type : "String" ,
+        required : false ,
+    }, 
+    phonenumber : {
+        type : Number , 
+        required : false
     }
 });
 

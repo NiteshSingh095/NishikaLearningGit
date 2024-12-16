@@ -8,11 +8,15 @@ const DisplayList = ()=>{
     const dispatch = useDispatch();
     const studentDetails = useSelector((store)=>store.student.list);
     const [student ,setStudent] = useState(studentDetails);
+    const [moreDetails ,setMoreDetails] = useState([]);
    
   
     useEffect(()=>{
         setStudent(studentDetails);
     },[studentDetails])
+    useEffect(()=>{
+        setMoreDetails((prev) != [...prev , moreDetails]);
+    })
 
     useEffect(()=>{
         dispatch(fetchStudentData())
