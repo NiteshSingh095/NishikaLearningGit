@@ -9,6 +9,7 @@ const userSchema = new Schema ({
         type : "String",
         required : true
     },
+    // this time use git pull to fetch and rebae at same time
     password : {
         type : "String",
         required : true
