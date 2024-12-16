@@ -1,0 +1,39 @@
+ [
+    {
+      "id" : 1,
+      "name": "Ankita Sharma",
+      "qualification": "BSc IT",
+      "email": "ankita_sharma12@gmail.com",
+      "password": "ankita@456"
+    },
+    {
+      "id" : 2,
+      "name": "Rahul Verma",
+      "qualification": "BE ECE",
+      "email": "rahulverma2020@gmail.com",
+      "password": "rahul@98765"
+    },
+    {
+      "id" : 3,
+      "name": "Sandeep Kumar",
+      "qualification": "BTech ME",
+      "email": "sandeep.kumar1@yahoo.com",
+      "password": "sandeep123!"
+    },
+    {
+      "id" : 4,
+      "name": "Pooja Patel",
+      "qualification": "MCA",
+      "email": "pooja_patel@mymail.com",
+      "password": "pooja_786"
+    },
+    {
+      "id" : 5,
+      "name": "Vikram Singh",
+      "qualification": "BBA",
+      "email": "vikramsingh321@hotmail.com",
+      "password": "vikram#2023"
+    }
+    
+  ]
+  
